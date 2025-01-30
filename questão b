@@ -1,0 +1,24 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número inteiro: ");
+			int num1 = int.Parse(Console.ReadLine());
+			Console.Write("Digite outro número inteiro: ");
+			int num2 = int.Parse(Console.ReadLine());
+			
+			if (num1 < num2){
+				Console.WriteLine("O primeiro número é menor que o segundo.");
+			}else{ 
+				Console.WriteLine("O primeiro número NÃO é menor que o segundo.");
+			}
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
