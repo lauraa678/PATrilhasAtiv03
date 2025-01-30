@@ -1,0 +1,25 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número inteiro : ");
+			int num1 = int.Parse(Console.ReadLine());
+			Console.Write("Digite outro número inteiro : ");
+			int num2 = int.Parse(Console.ReadLine());
+			
+			int diferenca = num1 - num2;
+			
+			if (diferenca <= 10){
+				Console.WriteLine("A diferença entre os números é menor ou igual a 10.");
+			}else{ 
+				Console.WriteLine("A diferença entre os números é maior que 10.");
+			}
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
