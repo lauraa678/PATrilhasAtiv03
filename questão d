@@ -1,0 +1,26 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número inteiro: ");
+			int num1 = int.Parse(Console.ReadLine());
+			Console.Write("Digite outro número inteiro: ");
+			int num2 = int.Parse(Console.ReadLine());
+			Console.Write("Digite outro número inteiro: ");
+			int num3 = int.Parse(Console.ReadLine());
+			
+			if (num1 < num2 && num1 > num3){
+				Console.WriteLine("O primeiro número está entre o segundo e o terceiro.");
+			}else{ 
+				Console.WriteLine("O primeiro número não está entre os outros dois.");
+			}
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
