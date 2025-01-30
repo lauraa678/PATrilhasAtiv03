@@ -1,0 +1,24 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número racional : ");
+			float num1 = float.Parse(Console.ReadLine());
+			Console.Write("Digite outro número racional: ");
+			float num2 = float.Parse(Console.ReadLine());
+			
+			if (num1 >= num2){
+				Console.WriteLine("O primeiro número é maior ou igual ao segundo .");
+			}else{ 
+				Console.WriteLine("O primeiro número é menor que o segundo.");
+			}
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
