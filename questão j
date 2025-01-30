@@ -1,0 +1,21 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Digite um número racional : ");
+			float num = float.Parse(Console.ReadLine());
+			
+			if (num == 0){
+				Console.WriteLine("O número digitado é igual a 0.");
+			}else{ 
+				Console.WriteLine("O número digitado NÃO é igual a 0.");
+			}
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
